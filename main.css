@@ -1,0 +1,34 @@
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+.flexbox-wrap {
+  border: 1px solid #f0f0f0;
+  width: 90%;
+  margin: 2rem auto;
+}
+.flexbox-wrap .full {
+  display: block;
+  width: 10  0%;
+  text-align: center;
+  max-width: 800px;
+  width: 80%;
+  margin: 0 auto;
+}
+.flexbox-wrap .flexbox {
+  align-items: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.flexbox-wrap .flexbox .half {
+  background: #f0f0f0;
+  margin: 1rem;
+  padding: 1rem;
+  width: 50%;
+}
+.flexbox-wrap .flexbox .half.left {
+  order: 1;
+}
+.flexbox-wrap .flexbox .half.right {
+  order: 2;
+}
